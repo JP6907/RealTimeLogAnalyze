@@ -122,6 +122,3 @@ com.jp.spark.streaming.application.CountByStreaming
 Hbase> list     
 Hbase> scan 'ns1:courses_search_clickcount'
 ```
-
-&nbsp;
-> 参考：https://blog.csdn.net/qq_41955099/article/details/88959996
