@@ -5,9 +5,20 @@
 script 目录下的 generate_log.py 脚本为日志生成脚本，可以模拟日志的生成，Flume 会将生成的日志迁移到 Kafka 中，
 SparkStreaming 从 Kafka 中读取日志，并将处理后得到的统计数据存入 HBase 中。
 
-# 2. 环境配置
+# 2. 版本
+- jdk1.8
+- scala 2.11.8
+- Hadoop-2.8.1
+- zookeeper-3.4.6
+- Hbase-1.2.1
+- spark-2.4.0-bin-hadoop2.7
+- Apache-flume-1.9.0
+- kafka_2.11-0.10.2.1
+- apache-flume-1.6.0  
 
-## 2.1 集群配置
+# 3. 环境配置
+
+## 3.1 集群配置
 
 集群节点分配
 
@@ -28,7 +39,7 @@ HDFS->Zookeeper->HBase->Kafka->Spark
 ```
 
 
-## 2.2 创建HBase表
+## 3.2 创建HBase表
 HBase表需要提前创建好
 ```shell
 bin/start-hbase.sh
@@ -40,7 +51,7 @@ bin/hbase shell
 创建搜索引擎统计表，列族为info：create 'ns1:courses_search_clickcount', 'info'
 ```
 
-## 2.3 flume配置文件
+## 3.3 flume配置文件
 
 streaming_log.conf
 ```
@@ -65,7 +76,7 @@ exec-memory-kafka.sinks.kafka-sink.channel = memory-channel
 ```
 
 
-## 2.4 创建Kafka主题
+## 3.4 创建Kafka主题
 Kafka 的 topic 需要提前创建好
 ```shell
 bin/kafka-topics.sh --create --zookeeper hdp-01:2181,hdp-02:2181,hdp-03:2181 --replication-factor 3 --partitions 3 --topic streamtopic
@@ -74,9 +85,9 @@ bin/kafka-topics.sh --describe --zookeeper hdp-01:2181,hdp-02:2181,hdp-03:2181 -
 bin/kafka-console-consumer.sh --zookeeper hdp-01:2181,hdp-02:2181,hdp-03:2181 --topic streamtopic --from-beginning
 ```
 
-# 3. 启动
+# 4. 启动
 
-## 3.1 生成日志
+## 4.1 生成日志
 ```shell
 python script/generate.log
 ```
@@ -84,19 +95,19 @@ python script/generate.log
 该脚本会在当前目录生成日志文件。
 因此，python脚本与Flume配置文件中监控的目录必须要一直一致，否则将无法收集。
 
-## 3.2 启动Kafka
+## 4.2 启动Kafka
 所有机器执行：
 ```sbtshell
 bin/kafka-server-start.sh -daemon config/server.properties
 ```
 
-## 3.3 启动Flume
+## 4.3 启动Flume
 
 ```shell
 bin/flume-ng agent -n exec-memory-kafka -c ./conf -f conf/streaming_log.conf -Dflume.root.logger=DEBUG,console -no-reload-conf
 ```
 
-## 3.4 启动SparkStreaming
+## 4.4 启动SparkStreaming
 运行
 ```
 com.jp.spark.streaming.application.CountByStreaming

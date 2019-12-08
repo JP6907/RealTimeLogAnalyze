@@ -13,8 +13,8 @@
   
 # 2. 工程结构
 系统分为两个子系统：
-- [日志实时分析系统 (LogAnlyize)](LogAnalyize)：实时处理不断产生的用户日志，存入 HBase 中。
-- [统计数据展示系统 (LogWeb)](LogWeb)：从 HBase 中取出数据，通过 Web 页面展示。
+- [日志实时分析系统 (LogAnlyize)](./LogAnalyize)：实时处理不断产生的用户日志，存入 HBase 中。
+- [统计数据展示系统 (LogWeb)](./LogWeb)：从 HBase 中取出数据，通过 Web 页面展示。
 
 # 3. 版本
 

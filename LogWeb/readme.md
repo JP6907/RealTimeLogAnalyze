@@ -6,7 +6,15 @@
 
 前端页面展示采用 EChart。
 
-# 2.访问接口
+# 2. 版本
+- SpringBoot-2.2.1
+- Spring MVC-4.3.3.RELEASE
+- Spring-4.3.3.RELEASE
+- MyBatis-3.2.1
+- h2-1.4.192
+- Echarts 4.3.0
+
+# 3.访问接口
 提供两个访问接口：
 
 1. 课程统计数据
