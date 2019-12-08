@@ -1,1 +1,0 @@
-/media/zjp/文档/InvertedIndex/src/main/resources/log4j.properties
