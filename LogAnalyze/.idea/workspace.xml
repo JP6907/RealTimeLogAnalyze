@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="902898f2-b61b-4576-8ff9-5db2a1d79ab7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LogAnalyze.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/click.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/script/generate_log.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/application/CountByStreaming.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/dao/CourseClickCountDao.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/dao/CourseSearchClickCountDao.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/domain/ClickLog.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/domain/CourseClickCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/domain/CourseSearchClickCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/utils/DateUtils.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/utils/HBaseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/scriptFile.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jp/spark/streaming/dao/CourseClickCountDaoTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jp/spark/streaming/dao/CourseSearchClickCountDaoTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/application/CountByStreaming$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/application/CountByStreaming$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/application/CountByStreaming$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/application/CountByStreaming$$anonfun$main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/application/CountByStreaming$$anonfun$main$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/application/CountByStreaming$$anonfun$main$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/application/CountByStreaming$$anonfun$main$4$$anonfun$apply$1$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/application/CountByStreaming$$anonfun$main$4$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/application/CountByStreaming$$anonfun$main$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/application/CountByStreaming$$anonfun$main$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/application/CountByStreaming$$anonfun$main$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/application/CountByStreaming$$anonfun$main$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/application/CountByStreaming$$anonfun$main$8$$anonfun$apply$3$$anonfun$apply$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/application/CountByStreaming$$anonfun$main$8$$anonfun$apply$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/application/CountByStreaming$$anonfun$main$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/application/CountByStreaming$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/application/CountByStreaming.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/dao/CourseClickCountDao$$anonfun$save$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/dao/CourseClickCountDao$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/dao/CourseClickCountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/dao/CourseSearchClickCountDao$$anonfun$save$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/dao/CourseSearchClickCountDao$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/dao/CourseSearchClickCountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/domain/ClickLog$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/domain/ClickLog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/domain/CourseClickCount$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/domain/CourseClickCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/domain/CourseSearchClickCount$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/domain/CourseSearchClickCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/utils/DateUtils$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/utils/DateUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jp/spark/streaming/utils/HBaseUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/scriptFile.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/jp/spark/streaming/dao/CourseClickCountDaoTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/jp/spark/streaming/dao/CourseClickCountDaoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/jp/spark/streaming/dao/CourseSearchClickCountDaoTest$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/jp/spark/streaming/dao/CourseSearchClickCountDaoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/artifacts/streaminglog_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/artifacts/streaminglog_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_github_stephenc_findbugs_findbugs_annotations_1_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_google_guava_guava_12_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_h2database_h2_1_4_192.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_jcraft_jsch_0_1_42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__commons_codec_commons_codec_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__commons_el_commons_el_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__io_netty_netty_3_6_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__io_netty_netty_all_4_1_43_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__net_sf_ezmorph_ezmorph_1_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__net_sf_json_lib_json_lib_jdk15_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_avro_avro_1_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_commons_commons_math3_3_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_directory_api_api_asn1_api_1_0_0_M20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_directory_api_api_util_1_0_0_M20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_directory_server_apacheds_i18n_2_0_0_M15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_hbase_hbase_annotations_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_hbase_hbase_client_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_hbase_hbase_common_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_hbase_hbase_protocol_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_htrace_htrace_core_3_1_0_incubating.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_27.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_8_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_jruby_jcodings_jcodings_1_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_jruby_joni_joni_2_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_spring_aop_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_spring_beans_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_spring_context_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_spring_core_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_spring_expression_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_spring_orm_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_spring_test_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_spring_tx_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_spring_web_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/pic/courseclick.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/pic/searchengine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/StreaminglogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/Utils/HBaseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/controller/CourseClickCountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/controller/SearchEngineCountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/dao/CourseClickCountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/dao/CourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/dao/SearchEngineCountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/dao/SearchEngineMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/dao/impl/CourseClickCountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/dao/impl/SearchEngineCountDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/domain/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/domain/CourseCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/domain/SearchEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/domain/SearchEngineCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/service/CourseClickCountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/service/SearchEngineCountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/service/SearchEngineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/service/impl/CourseClickCountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/service/impl/SearchEngineCountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/java/com/jp/streaminglog/service/impl/SearchEngineServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/resources/db/h2/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/resources/db/h2/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/webapp/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/webapp/js/jquery-1.11.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/webapp/jsp/courseclick.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/webapp/jsp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/main/webapp/jsp/searchclick.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/src/test/java/com/jp/streaminglog/StreaminglogApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/streaminglog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/StreaminglogApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/Utils/HBaseUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/controller/CourseClickCountController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/controller/CourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/controller/SearchEngineCountController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/dao/CourseClickCountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/dao/CourseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/dao/SearchEngineCountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/dao/SearchEngineMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/dao/impl/CourseClickCountDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/dao/impl/SearchEngineCountDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/domain/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/domain/CourseCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/domain/SearchEngine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/domain/SearchEngineCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/service/CourseClickCountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/service/CourseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/service/SearchEngineCountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/service/SearchEngineService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/service/impl/CourseClickCountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/service/impl/CourseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/service/impl/SearchEngineCountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/com/jp/streaminglog/service/impl/SearchEngineServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/db/h2/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/classes/db/h2/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LogWeb/target/test-classes/com/jp/streaminglog/StreaminglogApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../readme.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-887888430">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="564" />
+          <entry key="log" value="1" />
+          <entry key="md" value="1460" />
+          <entry key="py" value="14" />
+          <entry key="scala" value="3015" />
+          <entry key="xml" value="65" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="564" />
+          <entry key="Markdown" value="1460" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="Scala" value="3015" />
+          <entry key="XML" value="65" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="0-SNAPSHOT" value="1" />
+          <entry key="class" value="6" />
+          <entry key="java" value="3" />
+          <entry key="log" value="3" />
+          <entry key="md" value="2" />
+          <entry key="properties" value="1" />
+          <entry key="py" value="2" />
+          <entry key="scala" value="15" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="6" />
+          <entry key="JAVA" value="3" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Properties" value="1" />
+          <entry key="Scala" value="15" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/utils/HBaseUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1300">
+              <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/application/CountByStreaming.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="560">
+              <caret line="28" column="86" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="86" />
+              <folding>
+                <element signature="e#44#126#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/script/click.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="619">
+              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.4.0/spark-core_2.11-2.4.0-sources.jar!/org/apache/spark/rdd/RDD.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34380">
+              <caret line="1761" column="52" selection-start-line="1761" selection-start-column="52" selection-end-line="1761" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="188">
+                <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="20">
+                <caret line="1" column="21" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="21" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="609">
+              <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>line</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Documents/fisco-bcos/web3sdk" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Blockchain/BCOS/2.1.0/web3sdk-master" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Blockchain/BCOS/2.1.0/web3sdk/web3sdk-master" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/utils/DateUtils.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/domain/ClickLog.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/domain/CourseClickCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/domain/CourseSearchClickCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/dao/CourseClickCountDao.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/dao/CourseSearchClickCountDao.scala" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jp/spark/streaming/dao/CourseClickCountDaoTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jp/spark/streaming/dao/CourseSearchClickCountDaoTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/utils/HBaseUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/application/CountByStreaming.scala" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/script/click.log" />
+        <option value="$PROJECT_DIR$/script/generate_log.py" />
+        <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/../readme.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="LogAnalyize" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="107" />
+    <option name="y" value="38" />
+    <option name="width" value="1717" />
+    <option name="height" value="963" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LogAnalyize" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LogAnalyize" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575808347297" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.CountByStreaming">
+    <configuration name="CountByStreaming" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.jp.spark.streaming.application.CountByStreaming" />
+      <module name="LogAnalyze" />
+      <option name="PROGRAM_PARAMETERS" value="hdp-01:9092,hdp-02:9092,hdp-03:9092 logGroup2 streamtopic 1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jp.spark.streaming.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseClickCountDaoTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.jp.spark.streaming.dao.CourseClickCountDaoTest" />
+      <module name="LogAnalyze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jp.spark.streaming.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseSearchClickCountDaoTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.jp.spark.streaming.dao.CourseSearchClickCountDaoTest" />
+      <module name="LogAnalyze" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jp.spark.streaming.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="LogAnalyze" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="LogAnalyze" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CourseClickCountDaoTest" />
+      <item itemvalue="Application.CourseSearchClickCountDaoTest" />
+      <item itemvalue="Application.CountByStreaming" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CountByStreaming" />
+        <item itemvalue="Application.CourseSearchClickCountDaoTest" />
+        <item itemvalue="Application.CourseClickCountDaoTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="902898f2-b61b-4576-8ff9-5db2a1d79ab7" name="Default Changelist" comment="" />
+      <created>1575531591017</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575531591017</updated>
+      <workItem from="1575531598926" duration="26674000" />
+      <workItem from="1575792847781" duration="4988000" />
+      <workItem from="1575805968681" duration="2304000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33966000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1037" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12860192" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24183796" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.20888889" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="10" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="JProfiler" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32974267" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.8.1/hadoop-common-2.8.1-sources.jar!/org/apache/hadoop/conf/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="182" column="13" selection-start-line="182" selection-start-column="13" selection-end-line="182" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.2.1/hbase-client-1.2.1.jar!/org/apache/hadoop/hbase/client/ConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/domain/ClickLog.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hbase/hbase-client/1.2.1/hbase-client-1.2.1.jar!/org/apache/hadoop/hbase/client/HTable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="728" column="111" selection-start-line="728" selection-start-column="105" selection-end-line="728" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jp/spark/streaming/dao/package.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/utils/DateUtils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/scriptFile.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/domain/CourseClickCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jp/spark/streaming/dao/CourseClickCountDaoTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/domain/CourseSearchClickCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jp/spark/streaming/dao/CourseSearchClickCountDaoTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-streaming-kafka-0-8_2.11/2.4.0/spark-streaming-kafka-0-8_2.11-2.4.0.jar!/org/apache/spark/streaming/kafka/KafkaUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.11/0.8.2.1/kafka_2.11-0.8.2.1.jar!/kafka/common/Config.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.11/0.8.2.1/kafka_2.11-0.8.2.1.jar!/kafka/consumer/ConsumerConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/2.0.0/kafka-clients-2.0.0.jar!/org/apache/kafka/clients/consumer/ConsumerRecord.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="70" column="13" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+          <folding>
+            <element signature="e#2535#2536#0" expanded="true" />
+            <element signature="e#2568#2569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/dao/CourseSearchClickCountDao.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/dao/CourseClickCountDao.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/LogAnalyize:LogAnalyize:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>LogAnalyize:LogAnalyize:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">LogAnalyize:LogAnalyize:1.0-SNAPSHOT</node>
+            <node x="" y="">org.scala-lang:scala-library:jar:2.11.8</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.hadoop:hadoop-annotations:jar:2.8.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.hadoop:hadoop-annotations:jar:2.8.1/jdk.tools:jdk.tools:jar:1.8</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.google.guava:guava:jar:11.0.2</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.google.guava:guava:jar:11.0.2/com.google.code.findbugs:jsr305:jar:1.3.9</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/commons-cli:commons-cli:jar:1.2</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.commons:commons-math3:jar:3.1.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/xmlenc:xmlenc:jar:0.52</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.httpcomponents:httpclient:jar:4.5.2</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.httpcomponents:httpclient:jar:4.5.2/org.apache.httpcomponents:httpcore:jar:4.4.4</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.httpcomponents:httpclient:jar:4.5.2/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.httpcomponents:httpclient:jar:4.5.2/commons-codec:commons-codec:jar:1.9</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/commons-codec:commons-codec:jar:1.4</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/commons-io:commons-io:jar:2.4</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/commons-net:commons-net:jar:3.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/javax.servlet:servlet-api:jar:2.5</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.mortbay.jetty:jetty:jar:6.1.26</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.mortbay.jetty:jetty-util:jar:6.1.26</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.mortbay.jetty:jetty-sslengine:jar:6.1.26</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/javax.servlet.jsp:jsp-api:jar:2.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.sun.jersey:jersey-core:jar:1.9</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.sun.jersey:jersey-json:jar:1.9</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.sun.jersey:jersey-json:jar:1.9/org.codehaus.jettison:jettison:jar:1.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.sun.jersey:jersey-json:jar:1.9/com.sun.xml.bind:jaxb-impl:jar:2.2.3-1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.sun.jersey:jersey-json:jar:1.9/com.sun.xml.bind:jaxb-impl:jar:2.2.3-1/javax.xml.bind:jaxb-api:jar:2.2.2</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.sun.jersey:jersey-json:jar:1.9/com.sun.xml.bind:jaxb-impl:jar:2.2.3-1/javax.xml.bind:jaxb-api:jar:2.2.2/javax.xml.stream:stax-api:jar:1.0-2</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.sun.jersey:jersey-json:jar:1.9/com.sun.xml.bind:jaxb-impl:jar:2.2.3-1/javax.xml.bind:jaxb-api:jar:2.2.2/javax.activation:activation:jar:1.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.sun.jersey:jersey-json:jar:1.9/org.codehaus.jackson:jackson-core-asl:jar:1.8.3</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.sun.jersey:jersey-json:jar:1.9/org.codehaus.jackson:jackson-mapper-asl:jar:1.8.3</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.sun.jersey:jersey-json:jar:1.9/org.codehaus.jackson:jackson-jaxrs:jar:1.8.3</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.sun.jersey:jersey-json:jar:1.9/org.codehaus.jackson:jackson-jaxrs:jar:1.8.3/org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.sun.jersey:jersey-json:jar:1.9/org.codehaus.jackson:jackson-jaxrs:jar:1.8.3/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.sun.jersey:jersey-json:jar:1.9/org.codehaus.jackson:jackson-xc:jar:1.8.3</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.sun.jersey:jersey-json:jar:1.9/org.codehaus.jackson:jackson-xc:jar:1.8.3/org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.sun.jersey:jersey-json:jar:1.9/org.codehaus.jackson:jackson-xc:jar:1.8.3/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.sun.jersey:jersey-server:jar:1.9</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.sun.jersey:jersey-server:jar:1.9/asm:asm:jar:3.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/net.java.dev.jets3t:jets3t:jar:0.9.0</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/net.java.dev.jets3t:jets3t:jar:0.9.0/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/net.java.dev.jets3t:jets3t:jar:0.9.0/org.apache.httpcomponents:httpclient:jar:4.1.2</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/net.java.dev.jets3t:jets3t:jar:0.9.0/org.apache.httpcomponents:httpcore:jar:4.1.2</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/net.java.dev.jets3t:jets3t:jar:0.9.0/com.jamesmurty.utils:java-xmlbuilder:jar:0.4</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/commons-configuration:commons-configuration:jar:1.6</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/commons-configuration:commons-configuration:jar:1.6/commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/commons-configuration:commons-configuration:jar:1.6/commons-lang:commons-lang:jar:2.4</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/commons-configuration:commons-configuration:jar:1.6/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0/commons-logging:commons-logging:jar:1.0.3</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/commons-configuration:commons-configuration:jar:1.6/commons-digester:commons-digester:jar:1.8/commons-logging:commons-logging:jar:1.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/commons-configuration:commons-configuration:jar:1.6/commons-beanutils:commons-beanutils-core:jar:1.8.0</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/commons-configuration:commons-configuration:jar:1.6/commons-beanutils:commons-beanutils-core:jar:1.8.0/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.slf4j:slf4j-api:jar:1.7.10</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.slf4j:slf4j-log4j12:jar:1.7.10</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.codehaus.jackson:jackson-core-asl:jar:1.9.13</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.codehaus.jackson:jackson-mapper-asl:jar:1.9.13</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.avro:avro:jar:1.7.4</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.avro:avro:jar:1.7.4/org.codehaus.jackson:jackson-core-asl:jar:1.8.8</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.avro:avro:jar:1.7.4/org.codehaus.jackson:jackson-mapper-asl:jar:1.8.8</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.avro:avro:jar:1.7.4/com.thoughtworks.paranamer:paranamer:jar:2.3</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.avro:avro:jar:1.7.4/org.xerial.snappy:snappy-java:jar:1.0.4.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.avro:avro:jar:1.7.4/org.slf4j:slf4j-api:jar:1.6.4</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.google.protobuf:protobuf-java:jar:2.5.0</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.google.code.gson:gson:jar:2.2.4</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.hadoop:hadoop-auth:jar:2.8.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.hadoop:hadoop-auth:jar:2.8.1/com.nimbusds:nimbus-jose-jwt:jar:3.9</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.hadoop:hadoop-auth:jar:2.8.1/com.nimbusds:nimbus-jose-jwt:jar:3.9/net.jcip:jcip-annotations:jar:1.0</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.hadoop:hadoop-auth:jar:2.8.1/com.nimbusds:nimbus-jose-jwt:jar:3.9/net.minidev:json-smart:jar:1.1.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.hadoop:hadoop-auth:jar:2.8.1/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.hadoop:hadoop-auth:jar:2.8.1/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15/org.apache.directory.server:apacheds-i18n:jar:2.0.0-M15</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.hadoop:hadoop-auth:jar:2.8.1/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15/org.apache.directory.server:apacheds-i18n:jar:2.0.0-M15/org.slf4j:slf4j-api:jar:1.7.5</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.hadoop:hadoop-auth:jar:2.8.1/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15/org.apache.directory.api:api-asn1-api:jar:1.0.0-M20</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.hadoop:hadoop-auth:jar:2.8.1/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15/org.apache.directory.api:api-asn1-api:jar:1.0.0-M20/org.slf4j:slf4j-api:jar:1.7.10</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.hadoop:hadoop-auth:jar:2.8.1/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15/org.apache.directory.api:api-util:jar:1.0.0-M20</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.hadoop:hadoop-auth:jar:2.8.1/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15/org.apache.directory.api:api-util:jar:1.0.0-M20/org.slf4j:slf4j-api:jar:1.7.10</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.hadoop:hadoop-auth:jar:2.8.1/org.apache.directory.server:apacheds-kerberos-codec:jar:2.0.0-M15/org.slf4j:slf4j-api:jar:1.7.10</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.hadoop:hadoop-auth:jar:2.8.1/org.apache.curator:curator-framework:jar:2.7.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.hadoop:hadoop-auth:jar:2.8.1/org.apache.curator:curator-framework:jar:2.7.1/com.google.guava:guava:jar:16.0.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.jcraft:jsch:jar:0.1.51</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.curator:curator-client:jar:2.7.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.curator:curator-client:jar:2.7.1/org.slf4j:slf4j-api:jar:1.7.6</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.curator:curator-client:jar:2.7.1/com.google.guava:guava:jar:11.0.2</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.curator:curator-recipes:jar:2.7.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.curator:curator-recipes:jar:2.7.1/com.google.guava:guava:jar:11.0.2</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/com.google.code.findbugs:jsr305:jar:3.0.0</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.htrace:htrace-core4:jar:4.0.1-incubating</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.zookeeper:zookeeper:jar:3.4.6</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-api:jar:1.6.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.zookeeper:zookeeper:jar:3.4.6/org.slf4j:slf4j-log4j12:jar:1.6.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.zookeeper:zookeeper:jar:3.4.6/log4j:log4j:jar:1.2.16</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.zookeeper:zookeeper:jar:3.4.6/io.netty:netty:jar:3.7.0.Final</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.commons:commons-compress:jar:1.4.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-common:jar:2.8.1/org.apache.commons:commons-compress:jar:1.4.1/org.tukaani:xz:jar:1.0</node>
+            <node x="" y="">org.apache.hadoop:hadoop-client:jar:2.8.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-client:jar:2.8.1/org.apache.hadoop:hadoop-hdfs:jar:2.8.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-client:jar:2.8.1/org.apache.hadoop:hadoop-hdfs:jar:2.8.1/org.apache.hadoop:hadoop-hdfs-client:jar:2.8.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-client:jar:2.8.1/org.apache.hadoop:hadoop-hdfs:jar:2.8.1/org.apache.hadoop:hadoop-hdfs-client:jar:2.8.1/com.squareup.okhttp:okhttp:jar:2.4.0</node>
+            <node x="" y="">org.apache.hadoop:hadoop-client:jar:2.8.1/org.apache.hadoop:hadoop-hdfs:jar:2.8.1/org.apache.hadoop:hadoop-hdfs-client:jar:2.8.1/com.squareup.okhttp:okhttp:jar:2.4.0/com.squareup.okio:okio:jar:1.4.0</node>
+            <node x="" y="">org.apache.hadoop:hadoop-client:jar:2.8.1/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.8.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-client:jar:2.8.1/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.8.1/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.8.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-client:jar:2.8.1/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.8.1/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.8.1/org.apache.hadoop:hadoop-yarn-client:jar:2.8.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-client:jar:2.8.1/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.8.1/org.apache.hadoop:hadoop-mapreduce-client-common:jar:2.8.1/org.apache.hadoop:hadoop-yarn-server-common:jar:2.8.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-client:jar:2.8.1/org.apache.hadoop:hadoop-mapreduce-client-app:jar:2.8.1/org.apache.hadoop:hadoop-mapreduce-client-shuffle:jar:2.8.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-client:jar:2.8.1/org.apache.hadoop:hadoop-yarn-api:jar:2.8.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-client:jar:2.8.1/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.8.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-client:jar:2.8.1/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.8.1/org.apache.hadoop:hadoop-yarn-common:jar:2.8.1</node>
+            <node x="" y="">org.apache.hadoop:hadoop-client:jar:2.8.1/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.8.1/org.apache.hadoop:hadoop-yarn-common:jar:2.8.1/com.sun.jersey:jersey-client:jar:1.9</node>
+            <node x="" y="">org.apache.hadoop:hadoop-client:jar:2.8.1/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.8.1/org.apache.hadoop:hadoop-yarn-common:jar:2.8.1/org.codehaus.jackson:jackson-jaxrs:jar:1.9.13</node>
+            <node x="" y="">org.apache.hadoop:hadoop-client:jar:2.8.1/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.8.1/org.apache.hadoop:hadoop-yarn-common:jar:2.8.1/org.codehaus.jackson:jackson-xc:jar:1.9.13</node>
+            <node x="" y="">org.apache.hadoop:hadoop-client:jar:2.8.1/org.apache.hadoop:hadoop-mapreduce-client-jobclient:jar:2.8.1</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/org.apache.hbase:hbase-annotations:jar:1.2.1</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/org.apache.hbase:hbase-common:jar:1.2.1</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/org.apache.hbase:hbase-common:jar:1.2.1/com.google.guava:guava:jar:12.0.1</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/org.apache.hbase:hbase-common:jar:1.2.1/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/org.apache.hbase:hbase-common:jar:1.2.1/commons-codec:commons-codec:jar:1.4</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/org.apache.hbase:hbase-common:jar:1.2.1/org.apache.hadoop:hadoop-common:jar:2.5.1</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/org.apache.hbase:hbase-common:jar:1.2.1/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.5.1</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/org.apache.hbase:hbase-protocol:jar:1.2.1</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/org.apache.hbase:hbase-protocol:jar:1.2.1/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/commons-codec:commons-codec:jar:1.4</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/commons-logging:commons-logging:jar:1.1.3</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/com.google.guava:guava:jar:11.0.2</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/io.netty:netty-all:jar:4.0.23.Final</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/org.apache.htrace:htrace-core:jar:3.1.0-incubating</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/org.jruby.jcodings:jcodings:jar:1.0.8</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/org.jruby.joni:joni:jar:2.1.2</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/com.yammer.metrics:metrics-core:jar:2.2.0</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/com.yammer.metrics:metrics-core:jar:2.2.0/org.slf4j:slf4j-api:jar:1.7.2</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/org.apache.hadoop:hadoop-auth:jar:2.5.1</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/org.apache.hadoop:hadoop-common:jar:2.8.1</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/org.apache.hadoop:hadoop-mapreduce-client-core:jar:2.8.1</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/com.github.stephenc.findbugs:findbugs-annotations:jar:1.3.9-1</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/junit:junit:jar:4.12</node>
+            <node x="" y="">org.apache.hbase:hbase-client:jar:1.2.1/junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5</node>
+            <node x="" y="">com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5/org.scala-lang:scala-library:jar:2.11.7</node>
+            <node x="" y="">com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5/org.scala-lang:scala-reflect:jar:2.11.7</node>
+            <node x="" y="">com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5/org.scala-lang:scala-reflect:jar:2.11.7/org.scala-lang:scala-library:jar:2.11.8</node>
+            <node x="" y="">com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5/com.fasterxml.jackson.core:jackson-core:jar:2.6.5</node>
+            <node x="" y="">com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.5</node>
+            <node x="" y="">com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5/com.fasterxml.jackson.core:jackson-databind:jar:2.6.5</node>
+            <node x="" y="">com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5/com.fasterxml.jackson.core:jackson-databind:jar:2.6.5/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.0</node>
+            <node x="" y="">com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5/com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.6.5</node>
+            <node x="" y="">com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.5/com.fasterxml.jackson.module:jackson-module-paranamer:jar:2.6.5/com.thoughtworks.paranamer:paranamer:jar:2.6</node>
+            <node x="" y="">net.jpountz.lz4:lz4:jar:1.3.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.avro:avro:jar:1.8.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.avro:avro-mapred:jar:hadoop2:1.8.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.avro:avro-mapred:jar:hadoop2:1.8.2/org.apache.avro:avro-ipc:jar:1.8.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.avro:avro-mapred:jar:hadoop2:1.8.2/org.apache.avro:avro-ipc:jar:1.8.2/org.apache.avro:avro:jar:1.7.4</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.avro:avro-mapred:jar:hadoop2:1.8.2/org.apache.avro:avro-ipc:jar:1.8.2/org.slf4j:slf4j-api:jar:1.7.7</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.avro:avro-mapred:jar:hadoop2:1.8.2/commons-codec:commons-codec:jar:1.4</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.avro:avro-mapred:jar:hadoop2:1.8.2/org.slf4j:slf4j-api:jar:1.7.10</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/com.twitter:chill_2.11:jar:0.9.3</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/com.twitter:chill_2.11:jar:0.9.3/org.scala-lang:scala-library:jar:2.11.12</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/com.twitter:chill_2.11:jar:0.9.3/com.esotericsoftware:kryo-shaded:jar:4.0.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/com.twitter:chill_2.11:jar:0.9.3/com.esotericsoftware:kryo-shaded:jar:4.0.2/com.esotericsoftware:minlog:jar:1.3.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/com.twitter:chill_2.11:jar:0.9.3/com.esotericsoftware:kryo-shaded:jar:4.0.2/org.objenesis:objenesis:jar:2.5.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/com.twitter:chill-java:jar:0.9.3</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.xbean:xbean-asm6-shaded:jar:4.8</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.hadoop:hadoop-client:jar:2.6.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.spark:spark-launcher_2.11:jar:2.4.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.spark:spark-kvstore_2.11:jar:2.4.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.spark:spark-kvstore_2.11:jar:2.4.0/org.fusesource.leveldbjni:leveldbjni-all:jar:1.8</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.spark:spark-kvstore_2.11:jar:2.4.0/com.fasterxml.jackson.core:jackson-core:jar:2.6.7</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.spark:spark-kvstore_2.11:jar:2.4.0/com.fasterxml.jackson.core:jackson-databind:jar:2.6.7.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.spark:spark-kvstore_2.11:jar:2.4.0/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.7</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.spark:spark-network-common_2.11:jar:2.4.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.spark:spark-network-common_2.11:jar:2.4.0/io.netty:netty-all:jar:4.1.17.Final</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.spark:spark-network-common_2.11:jar:2.4.0/com.fasterxml.jackson.core:jackson-databind:jar:2.6.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.spark:spark-network-common_2.11:jar:2.4.0/com.fasterxml.jackson.core:jackson-annotations:jar:2.6.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.spark:spark-network-common_2.11:jar:2.4.0/com.google.code.findbugs:jsr305:jar:3.0.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.spark:spark-network-shuffle_2.11:jar:2.4.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.spark:spark-unsafe_2.11:jar:2.4.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.spark:spark-unsafe_2.11:jar:2.4.0/com.google.code.findbugs:jsr305:jar:3.0.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/javax.activation:activation:jar:1.1.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.curator:curator-recipes:jar:2.6.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/javax.servlet:javax.servlet-api:jar:3.1.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.commons:commons-math3:jar:3.4.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/com.google.code.findbugs:jsr305:jar:3.0.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.16</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.slf4j:jul-to-slf4j:jar:1.7.16</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.slf4j:jul-to-slf4j:jar:1.7.16/org.slf4j:slf4j-api:jar:1.7.10</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.slf4j:jcl-over-slf4j:jar:1.7.16</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.slf4j:jcl-over-slf4j:jar:1.7.16/org.slf4j:slf4j-api:jar:1.7.10</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.slf4j:slf4j-log4j12:jar:1.7.16</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/com.ning:compress-lzf:jar:1.0.3</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.xerial.snappy:snappy-java:jar:1.1.7.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.lz4:lz4-java:jar:1.4.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/com.github.luben:zstd-jni:jar:1.3.2-2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.roaringbitmap:RoaringBitmap:jar:0.5.11</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.scala-lang:scala-library:jar:2.11.8</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.json4s:json4s-jackson_2.11:jar:3.5.3</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.json4s:json4s-jackson_2.11:jar:3.5.3/org.scala-lang:scala-library:jar:2.11.11</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.json4s:json4s-jackson_2.11:jar:3.5.3/org.json4s:json4s-core_2.11:jar:3.5.3</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.json4s:json4s-jackson_2.11:jar:3.5.3/org.json4s:json4s-core_2.11:jar:3.5.3/org.scala-lang:scala-library:jar:2.11.8</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.json4s:json4s-jackson_2.11:jar:3.5.3/org.json4s:json4s-core_2.11:jar:3.5.3/org.json4s:json4s-ast_2.11:jar:3.5.3</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.json4s:json4s-jackson_2.11:jar:3.5.3/org.json4s:json4s-core_2.11:jar:3.5.3/org.json4s:json4s-ast_2.11:jar:3.5.3/org.scala-lang:scala-library:jar:2.11.8</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.json4s:json4s-jackson_2.11:jar:3.5.3/org.json4s:json4s-core_2.11:jar:3.5.3/org.json4s:json4s-scalap_2.11:jar:3.5.3</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.json4s:json4s-jackson_2.11:jar:3.5.3/org.json4s:json4s-core_2.11:jar:3.5.3/org.json4s:json4s-scalap_2.11:jar:3.5.3/org.scala-lang:scala-library:jar:2.11.8</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.json4s:json4s-jackson_2.11:jar:3.5.3/org.json4s:json4s-core_2.11:jar:3.5.3/com.thoughtworks.paranamer:paranamer:jar:2.8</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.json4s:json4s-jackson_2.11:jar:3.5.3/org.json4s:json4s-core_2.11:jar:3.5.3/org.scala-lang.modules:scala-xml_2.11:jar:1.0.6</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.glassfish.jersey.core:jersey-client:jar:2.22.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.glassfish.jersey.core:jersey-client:jar:2.22.2/javax.ws.rs:javax.ws.rs-api:jar:2.0.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.glassfish.jersey.core:jersey-client:jar:2.22.2/org.glassfish.hk2:hk2-api:jar:2.4.0-b34</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.glassfish.jersey.core:jersey-client:jar:2.22.2/org.glassfish.hk2:hk2-api:jar:2.4.0-b34/org.glassfish.hk2:hk2-utils:jar:2.4.0-b34</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.glassfish.jersey.core:jersey-client:jar:2.22.2/org.glassfish.hk2:hk2-api:jar:2.4.0-b34/org.glassfish.hk2.external:aopalliance-repackaged:jar:2.4.0-b34</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.glassfish.jersey.core:jersey-client:jar:2.22.2/org.glassfish.hk2.external:javax.inject:jar:2.4.0-b34</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.glassfish.jersey.core:jersey-client:jar:2.22.2/org.glassfish.hk2:hk2-locator:jar:2.4.0-b34</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.glassfish.jersey.core:jersey-client:jar:2.22.2/org.glassfish.hk2:hk2-locator:jar:2.4.0-b34/org.javassist:javassist:jar:3.18.1-GA</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.glassfish.jersey.core:jersey-common:jar:2.22.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.glassfish.jersey.core:jersey-common:jar:2.22.2/javax.annotation:javax.annotation-api:jar:1.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.glassfish.jersey.core:jersey-common:jar:2.22.2/org.glassfish.jersey.bundles.repackaged:jersey-guava:jar:2.22.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.glassfish.jersey.core:jersey-common:jar:2.22.2/org.glassfish.hk2:osgi-resource-locator:jar:1.0.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.glassfish.jersey.core:jersey-server:jar:2.22.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.glassfish.jersey.core:jersey-server:jar:2.22.2/org.glassfish.jersey.media:jersey-media-jaxb:jar:2.22.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.glassfish.jersey.core:jersey-server:jar:2.22.2/javax.validation:validation-api:jar:1.1.0.Final</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.glassfish.jersey.containers:jersey-container-servlet:jar:2.22.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.glassfish.jersey.containers:jersey-container-servlet-core:jar:2.22.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/io.netty:netty-all:jar:4.0.23.Final</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/com.clearspring.analytics:stream:jar:2.7.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/io.dropwizard.metrics:metrics-core:jar:3.1.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/io.dropwizard.metrics:metrics-core:jar:3.1.5/org.slf4j:slf4j-api:jar:1.7.10</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/io.dropwizard.metrics:metrics-jvm:jar:3.1.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/io.dropwizard.metrics:metrics-jvm:jar:3.1.5/org.slf4j:slf4j-api:jar:1.7.10</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/io.dropwizard.metrics:metrics-json:jar:3.1.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/io.dropwizard.metrics:metrics-json:jar:3.1.5/com.fasterxml.jackson.core:jackson-databind:jar:2.4.2</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/io.dropwizard.metrics:metrics-json:jar:3.1.5/org.slf4j:slf4j-api:jar:1.7.10</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/io.dropwizard.metrics:metrics-graphite:jar:3.1.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/io.dropwizard.metrics:metrics-graphite:jar:3.1.5/org.slf4j:slf4j-api:jar:1.7.10</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/com.fasterxml.jackson.core:jackson-databind:jar:2.6.5</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/com.fasterxml.jackson.module:jackson-module-scala_2.11:jar:2.6.7.1</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.ivy:ivy:jar:2.4.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/oro:oro:jar:2.0.8</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/net.razorvine:pyrolite:jar:4.13</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/net.sf.py4j:py4j:jar:0.10.7</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.spark:spark-tags_2.11:jar:2.4.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.spark:spark-tags_2.11:jar:2.4.0/org.scala-lang:scala-library:jar:2.11.8</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.apache.commons:commons-crypto:jar:1.0.0</node>
+            <node x="" y="">org.apache.spark:spark-core_2.11:jar:2.4.0/org.spark-project.spark:unused:jar:1.0.0</node>
+            <node x="" y="">org.apache.spark:spark-streaming_2.11:jar:2.4.0</node>
+            <node x="" y="">org.apache.spark:spark-streaming_2.11:jar:2.4.0/org.scala-lang:scala-library:jar:2.11.8</node>
+            <node x="" y="">org.apache.spark:spark-streaming-kafka-0-10_2.11:jar:2.4.0</node>
+            <node x="" y="">org.apache.spark:spark-streaming-kafka-0-10_2.11:jar:2.4.0/org.apache.kafka:kafka-clients:jar:2.0.0</node>
+            <node x="" y="">org.apache.spark:spark-streaming-kafka-0-10_2.11:jar:2.4.0/org.apache.kafka:kafka-clients:jar:2.0.0/org.lz4:lz4-java:jar:1.4.1</node>
+            <node x="" y="">org.apache.spark:spark-streaming-kafka-0-10_2.11:jar:2.4.0/org.apache.kafka:kafka-clients:jar:2.0.0/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">org.apache.commons:commons-lang3:jar:3.5</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.05262233668929993" x="8532.0" y="1280.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/generate_log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/utils/HBaseUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jp/spark/streaming/application/CountByStreaming.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="28" column="86" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="86" />
+          <folding>
+            <element signature="e#44#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.4.0/spark-core_2.11-2.4.0-sources.jar!/org/apache/spark/rdd/RDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34380">
+          <caret line="1761" column="52" selection-start-line="1761" selection-start-column="52" selection-end-line="1761" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script/click.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="188">
+            <caret line="98" column="4" selection-start-line="98" selection-start-column="4" selection-end-line="98" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="78" column="8" selection-start-line="78" selection-start-column="8" selection-end-line="78" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="20">
+            <caret line="1" column="21" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
